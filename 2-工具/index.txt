@@ -1,0 +1,17 @@
+安装： npm i -g typescript
+
+编译：tsc index.ts 
+     tsc dir/file
+
+执行编译后js: node index.js
+             node dir/file
+
+解决ts与js冲突： tsc --init 生成配置文件
+                当strict为false时，为关闭严格模式，即函数入参不进行入参出参类型校验
+
+自动编译： tsc --watch
+
+发出错误： tsc -noEmitOnError index.ts
+
+ts-config:
+     target: 编译后的js版本

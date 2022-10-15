@@ -1,0 +1,5 @@
+修改tsconfig.json文件
+    里的compilerOptions对象
+    中的 target 字段
+表示编译后的js版本 ie9/ie9+ : es5
+                  ie8/ie8- ：es3
